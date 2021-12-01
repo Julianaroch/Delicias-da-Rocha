@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias da Rocha</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+    
+<body>
+    <div class="jumbotron text-center">
+        <h1> Delícias da Rocha</h1>
+        <p> Doces (Bolos de potes, bolos para festa, dunnets, entre outros...) e Salgados... </p>
+        <img class="logo" src="img/logo-dr.png" width="200" height="200">
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="" class="ativ">Home</a>
+        <a href="">Produtos</a>
+        <a href=""> Contato</a>
+        <a href=""> Sobre</a>
+        <a href="javascript: void(0)"; class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3> Bolos deliciosos</h3>
+                <p> Bolos de potes, Bolos para festas</p>
+                <p> Diversos sabores, com coberturas de chantily e recheios de diversos sabores...</p>
+                <img src="img/festa.jpg" width="100" height="100">
+                <img src="img/laranja.jpg" width="100" height="100">
+                <img src="img/mm.jpg" width="100" height="100">
+                <img src="img/bailarina.jpg" width="100" height="100">
+            </div>
+            <div class="col-sm-4">
+                <h3> Salgados maravilhosos</h3>
+                <p> Pizzas, empadinhas, mini-pizzas e enrolados</p>
+                <p> Diversos sabores e muçarela é nosso carro chefe nos salgados haha....</p>
+                <img src="img/empadinha.jpg" width="100" height="100">
+                <img src="img/pizza.jpg" width="100" height="100">
+            </div>
+            <div class="col-sm-4">
+                <h3> Todos os tipos de doces!</h3>
+                <p> Dunnets, docinhos de festa, cookies e cupcakes</p>
+                <p> Dunnets recheados e cobertos, docinhos e cupcakes de diversos sabores </p>
+                <img src="img/docinho.jpeg" width="100" height="100">
+                <img src="img/pudim.jpeg" width="100" height="100">
+                <img src="img/pave-pote.jpg" width="100" height="100">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h6> @ Todos os direitos reservados.</h6>
+    </div>
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+    </script>
+
+</body>
+</html>
+
